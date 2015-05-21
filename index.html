@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kitten</title>
+  <link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <div class="row">
+      <div class="col-md-6 col-md-push-6 text-right text-uppercase">
+        <h1 class="title-super text-thin">Kittens</h1>
+        <h3>Levitate</h3>
+      </div>
+      <div class="col-md-6 col-md-pull-6">
+        <img src="http://placekitten.com/g/96/96" alt="kitten">
+      </div>
+      <div class="clearfix visible-md-block"></div>
+    </div>
+
+    <!-- Splash Image -->
+    <div class="row">
+      <div class="col-md-12">
+        <img class="img-responsive" src="http://placekitten.com/g/1140/350" alt="kitten">
+      </div>
+    </div>
+
+    <!-- Kitten Gallery -->
+    <div class="row" id="honorablekitties">
+      <div class="col-md-12">
+        <h2 class="text-muted">Honorable Kitties</h2>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <a href="#honorablekitties"><img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/139.jpg" alt="kitten" data-toggle="modal" data-target="#project1"></a>
+        <h3>OJ the Cat</h3>
+      </div>
+      <div class="col-md-4">
+        <a href="#honorablekitties">
+          <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/140.jpg" alt="kitten" data-toggle="modal" data-target="#project2">
+        </a>
+        <h3>Eek the Cat</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="#honorablekitties">
+            <img src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/138.jpg" alt="kitten" data-toggle="modal" data-target="#project3">
+          </a>
+          <h3>Felix the Cat</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">OJ Didn't Do It</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/139.jpg" alt="kitten">
+          If it doesn't fit, you must acquit.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel2">Smartest Kitten</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/140.jpg" alt="kitten">
+          This cat is smarter than most humans.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel3">Funniest Kitten</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="http://placekitten.com.s3.amazonaws.com/homepage-samples/200/138.jpg" alt="kitten">
+          This cat makes the best jokes!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

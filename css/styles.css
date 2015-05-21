@@ -1,0 +1,29 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #0a0a0a;
+  font-weight: 300;
+}
+
+img {
+  padding: 0.5em 0;
+}
+
+.page-container {
+  padding: 1em 7em;
+}
+
+.text-muted {
+  color: #0a0a0a;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+.title-pic {
+  padding: 25px 25px;
+}
